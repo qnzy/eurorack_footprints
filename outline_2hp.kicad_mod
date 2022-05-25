@@ -1,0 +1,20 @@
+(footprint "outline_2hp" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3fd663de-e02c-49fa-b8bd-82a4bde5a4b8)
+  )
+  (fp_text value "outline_2hp" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp acae94eb-a039-46b8-b9c2-be069b00056c)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b7795c2f-f013-481b-a5ba-5771e76badb2)
+  )
+  (fp_rect (start 0 0) (end 9.8 128.5) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp 3bc1fd0e-c6b8-48c9-bee4-627f10015eac))
+  (fp_rect (start 0 10) (end 9.8 118.5) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 97ca15e8-1c96-4a76-b54a-fc6434917d65))
+  (pad "" np_thru_hole circle (at 2.6 3) (size 3.2 3.2) (drill oval 4 3.2) (layers *.Mask) (tstamp 6a46fcf1-8a2c-4cac-9839-f343d1fd7ccf))
+  (pad "" np_thru_hole circle (at 2.6 125.5) (size 3.2 3.2) (drill oval 4 3.2) (layers *.Mask) (tstamp f3f2313e-bba0-457a-98d7-90792472419e))
+)
