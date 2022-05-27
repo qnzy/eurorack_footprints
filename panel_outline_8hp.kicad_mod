@@ -1,11 +1,11 @@
-(footprint "outline_8hp" (version 20211014) (generator pcbnew)
+(footprint "panel_outline_8hp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3fd663de-e02c-49fa-b8bd-82a4bde5a4b8)
   )
-  (fp_text value "outline_8hp" (at 0 1 unlocked) (layer "F.Fab") hide
+  (fp_text value "panel_outline_8hp" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp acae94eb-a039-46b8-b9c2-be069b00056c)
   )

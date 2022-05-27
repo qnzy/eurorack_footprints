@@ -1,0 +1,18 @@
+(footprint "panel_pothole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 100a2a41-e57c-43b9-9a83-7d524cdcb9ca)
+  )
+  (fp_text value "panel_pothole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0cf599ff-eabd-4494-87bd-7977196cda9c)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b0afcc39-4fb7-4b29-9c28-4937f6e1a80f)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 7.2 7.2) (drill 7.2) (layers F&B.Cu) (tstamp 3ddef636-cfe7-4a05-9f1c-766c30697bd9))
+)
